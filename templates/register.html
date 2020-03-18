@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Datme - Register
+        </title>
+    </head>
+    <body>
+        <h1>
+            Create a new account with Datme
+        </h1>
+            <form action="/register" method="post">
+
+                <label for="username">email adress:</label><br>
+                <input type="text" id="username" name="username" value="{{ uservar }}"><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" value="{{ passwordvar }}"><br><br>
+
+                <input type="submit" value="Submit">
+            </form> 
+        <p><a href="/">back to login</a>
+            <br></p>
+    </body>
+</html>
